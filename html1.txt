@@ -1,0 +1,10 @@
+<head>
+	<title>Week 1-Lab 2<title>
+</head>
+	<h1>Week 1 Lab 2</h1>
+	<h2> My Background </h2>
+	<p>I'm from South Korea and have lived in US for 5 years now. I have graduated from St.Stanislaus College prep., and I'm a sophmore at IU.</p>
+
+	<h2>My I101 Expectations</h2>
+	<p>I want to learn about how those computer tech works basically.</p>
+<body>

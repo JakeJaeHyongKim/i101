@@ -1,0 +1,21 @@
+﻿<head>
+	<title>Review</title>
+</head>
+<body>
+	<a href="http://www.google.com"> Google </a>
+	<h1>Bulboff</h1>
+	<img src="images/bulboff.png/">
+	<hr />
+	<ul>
+		<li><i>Captain Crunch</i></li>
+		<li>Cheerios</li>
+	</ul>
+	<br />
+	<ol>
+		<li><b>One Piece</b></li>
+		<li><u>Infinite Challenges</u></li>
+		<li>Top Gear</li>
+		<li>Simpson</li>
+		<li>Dragon Ball</li>
+	</ol>
+</body>

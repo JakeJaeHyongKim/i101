@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>w8lab1</title>
+</head>
+
+<body>
+<h1>JavaScript 2</h1>
+
+<img id="myImage" onclick="changeImage()" src="images/bulboff.png" />
+
+<p> Click the lightbulb to turn it off.</p>
+
+<p> Please input a number between 1 and 10:</p>
+<input id="num" type="number">
+<button type="button" onclick="checkNumber()">submit</button>
+
+<p id="script1"></p>
+
+<h2>JavaScript Questions"
+<ul>
+	<li>When would be an instance where validation is useful in a website?</li>
+    <p> When the black on website should only accept number input or text input Such as a zipcode.</p>
+    <li>What would happen if your HTML code did not have either “bulbon” or “bulboff” as the original source for the picture? Try and see what happens if you change he picture to some new image without changing the JavaScript function. Why does it behave this way?</li>
+    <p> Then the image wouldn't show up, but only the little square with some kind of picture in it. Because the image that has selected in HTML code cannot be found in direction.</p>
+</ul>
+
+
+
+<script>
+function newFunction(){
+	var image=document.getElementById('myImage');
+	if (imgage.src.match("bulbon")){
+		image.src="images/bulboff.png";
+	}
+	else {
+		image.src="images/bulbon.png";
+	}
+}
+function checkNumber(){
+	var x, text;
+	x=document.getElementById("num").value;
+	if (isNaN(x) ||x<1||x>10){
+		text="Input not valid";
+	}
+	else {
+		text="input Accepted";
+		changeImage();
+	}
+	document.getElementById("script1").innerHTML=text;
+</script>
+</body>
+</html>

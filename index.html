@@ -1,0 +1,58 @@
+<link href="main.css" rel="stylesheet" type="text/css">
+<header>
+	<img src="images/bulboff.png"/>
+	<br />
+	<img src="images/visukit.png"/>
+	<title>I101 Home Page</title>
+<hr />
+<body>
+<p>Click VisuKit if you want to see an apt</p>
+<img id="myImage" onclick="changeImage()" src="images/deerpark.jpg"/>
+	<h1>I101 Home Page</h1>
+	<hr />
+	<p><h2>I'm a sophmore.</h2></p>
+		<p>I'm majoring in Human Resource Management in SPEA</p>
+	<hr />
+	<p><h2>Jake's first homepage.</h2></p>
+		<p>I am a bit confused with these codes</p>
+	<hr />
+	<p><h2><i>Learn More about my area</i></h2></p>
+		<p>Learning how to make the best output with human resource</p>
+	<hr />
+    
+	<h3><b>I101 Labs</b></h3>
+		<a href="http://pages.iu.edu/~kim918/i101/w1lab2.html"> Week 1 Lab 2 </a>
+		<br />
+		<a href="http://pages.iu.edu/~kim918/i101/w2lab1.html"> Week 2 Lab 1 </a>
+        <br />
+        <a href="http://pages.iu.edu/~kim918/i101/w2lab2.html"> Week 2 Lab 2 </a>
+        <br />
+        <a href="http://pages.iu.edu/~kim918/i101/w3lab2.html"> Week 3 Lab 2 </a>
+	<br />
+	<a href="http://pages.iu.edu/~kim918/i101/w4lab1.html"> Week4 Lab 1 </a>
+	<br />
+	<a href="http://pages.iu.edu/~kim918/i101/w5lab1.html"> Week 5 Lab 1 </a>
+	<br />
+	<a href="http://pages.iu.edu/~kim918/i101/w5lab2.html"> Week 5 Lab 2 </a>
+	<br />
+	<a href="http://pages.iu.edu/~kim918/i101/w6lab2.html"> Week 6 Lab 2 </a>
+	<br />
+	<a href="http://pages.iu.edu/~kim918/i101/w8lab1.html"> Week 8 Lab 1 </a>
+	<h4><u>I101 resources</u></h4>
+	<ol>
+		<li><a href="http://indiana.edu/~i101/"> Informatics home page </a></li>
+		<li><a href="http://uits.indiana.edu"> UITS home page </a></li>
+		<li><a href="http://oncourse.iu.edu"> Oncourse </a></li>
+	</ol>
+<script>
+function changeImage(){
+	var image=document.getElementById("myImage");
+	if(image.src.match("deerpark")){
+		image.src="images/deerpark.jpg";
+	}
+	else{
+		image.src="images/visukit.png";
+	}
+}
+</script>
+</body>
